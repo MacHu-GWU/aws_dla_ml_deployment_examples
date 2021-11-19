@@ -44,4 +44,4 @@ def train_and_dump_model():
 
 
 if __name__ == "__main__":
-    train_model()
+    train_and_dump_model()
