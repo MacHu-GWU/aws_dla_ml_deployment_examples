@@ -21,5 +21,5 @@ def predict():
     with open(path_model_dump, "rb") as f:
         classifier = pickle.load(f)
     pred = classifier.predict(data)
-    response = {"pred": pred}
+    response = {"pred": pred.tolist()}
     return json.dumps(response)
