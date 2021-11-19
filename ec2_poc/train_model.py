@@ -29,3 +29,4 @@ classifier = LogisticRegression(
 classifier.fit(X, y)
 
 y_pred = classifier.predict(X)
+print(y_pred)
