@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
 
+"""
+Test the dumped ML model.
+"""
+
 import os
 import pickle
 
